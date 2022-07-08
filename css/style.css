@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    font-family: var(--font1);
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left span{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 5px 20px;
+}
+
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+.content{
+    display: flex;
+    height: 100%;
+    background-color: rgb(230, 236, 238);
+    margin-top: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.content::after{
+    content: "";
+    background-image: url('../img/bg2.png');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.content-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+.home-articles{
+    background-color: rgb(230, 236, 238);
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 30px; 
+    position: relative;  
+}
+
+.year-box{
+    position: absolute;
+    width: 34px;
+    height: 455px;
+    /* background-color: red; */
+    right: 78px;
+    top: 105px;
+    width: 200px;
+    height: 92px;
+}
+
+.year-box div{
+    margin: 12px 0px;
+}
+
+.home-article{
+    display: flex;
+    padding: 20px;
+}
+
+
+.home-article img{
+    width: 300px;    
+    border-radius: 30px;
+    box-shadow: 12px 12px 10px rgb(99, 110, 99);
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.home-article-content a:hover{
+    text-decoration: underline;
+    color: rgb(126, 100, 100);
+}
+
+.footer{
+    height: 40px;
+    background-color: rgb(73, 52, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+
+}
+
+.footer a{
+    color: rgb(255, 255, 255);
+}

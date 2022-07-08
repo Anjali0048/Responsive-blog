@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dancing+Script&family=Playfair+Display&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dancing+Script&family=Playfair+Display&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Cairo:wght@300&family=Dancing+Script&family=Playfair+Display&family=Ubuntu&display=swap');
+
+:root{
+    --main-bg-color: brown;
+    --font1: 'Cairo', sans-serif;
+    --font2: 'Dancing Script', cursive;
+    --font3: 'Akaya Telivigala', cursive;
+}
+
+.center{
+    text-align: center;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.mx-1{
+    margin-left: 23px;    
+    margin-right: 23px;
+}
+
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgb(177, 177, 169);
+    cursor: pointer;
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.form-box input, textarea{
+    width: 50vw;
+    padding: 8px 6px;
+    margin: 4px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
